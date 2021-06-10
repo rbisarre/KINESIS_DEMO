@@ -1,0 +1,1135 @@
+{
+    "name": "PatentandTrademarkBAR",
+    "uniqueName": "EducationandInnovationRB-PatentandTrademarkBAR",
+    "url": "http://tableau-demo.360suite.io:9123//t/Demo/views/EducationandInnovationRB/PatentandTrademarkBAR",
+    "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovationRB/PatentandTrademarkBAR",
+    "timestamp": 1622615889944,
+    "content": {
+        "filters": true,
+        "fullColumns": true,
+        "image": true,
+        "parameters": true,
+        "summaryColumns": true,
+        "summaryData": true,
+        "worksheets": true
+    },
+    "worksheets": [
+        {
+            "name": "Patent and Trademark BAR",
+            "filters": [
+                {
+                    "caption": "Noms de mesures",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Patent and Trademark Top 30",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Belgium",
+                            "formattedValue": "Belgium"
+                        },
+                        {
+                            "value": "Brazil",
+                            "formattedValue": "Brazil"
+                        },
+                        {
+                            "value": "Canada",
+                            "formattedValue": "Canada"
+                        },
+                        {
+                            "value": "Chile",
+                            "formattedValue": "Chile"
+                        },
+                        {
+                            "value": "China",
+                            "formattedValue": "China"
+                        },
+                        {
+                            "value": "Colombia",
+                            "formattedValue": "Colombia"
+                        },
+                        {
+                            "value": "France",
+                            "formattedValue": "France"
+                        },
+                        {
+                            "value": "Germany",
+                            "formattedValue": "Germany"
+                        },
+                        {
+                            "value": "Hong Kong SAR, China",
+                            "formattedValue": "Hong Kong SAR, China"
+                        },
+                        {
+                            "value": "India",
+                            "formattedValue": "India"
+                        },
+                        {
+                            "value": "Indonesia",
+                            "formattedValue": "Indonesia"
+                        },
+                        {
+                            "value": "Iran, Islamic Rep.",
+                            "formattedValue": "Iran, Islamic Rep."
+                        },
+                        {
+                            "value": "Italy",
+                            "formattedValue": "Italy"
+                        },
+                        {
+                            "value": "Japan",
+                            "formattedValue": "Japan"
+                        },
+                        {
+                            "value": "Korea, Rep.",
+                            "formattedValue": "Korea, Rep."
+                        },
+                        {
+                            "value": "Malaysia",
+                            "formattedValue": "Malaysia"
+                        },
+                        {
+                            "value": "Mexico",
+                            "formattedValue": "Mexico"
+                        },
+                        {
+                            "value": "New Zealand",
+                            "formattedValue": "New Zealand"
+                        },
+                        {
+                            "value": "Poland",
+                            "formattedValue": "Poland"
+                        },
+                        {
+                            "value": "Russian Federation",
+                            "formattedValue": "Russian Federation"
+                        },
+                        {
+                            "value": "Singapore",
+                            "formattedValue": "Singapore"
+                        },
+                        {
+                            "value": "South Africa",
+                            "formattedValue": "South Africa"
+                        },
+                        {
+                            "value": "Spain",
+                            "formattedValue": "Spain"
+                        },
+                        {
+                            "value": "Switzerland",
+                            "formattedValue": "Switzerland"
+                        },
+                        {
+                            "value": "Thailand",
+                            "formattedValue": "Thailand"
+                        },
+                        {
+                            "value": "Turkey",
+                            "formattedValue": "Turkey"
+                        },
+                        {
+                            "value": "Ukraine",
+                            "formattedValue": "Ukraine"
+                        },
+                        {
+                            "value": "United Kingdom",
+                            "formattedValue": "United Kingdom"
+                        },
+                        {
+                            "value": "United States",
+                            "formattedValue": "United States"
+                        },
+                        {
+                            "value": "Vietnam",
+                            "formattedValue": "Vietnam"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Region",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Year",
+                    "type": "quantitative",
+                    "values": {
+                        "min": {
+                            "value": 2000,
+                            "formattedValue": "2000"
+                        },
+                        "max": {
+                            "value": 2015,
+                            "formattedValue": "2015"
+                        }
+                    }
+                }
+            ],
+            "columns": {
+                "summary": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Noms de mesures",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "Valeurs de mesures",
+                        "dataType": "float",
+                        "index": 2
+                    }
+                ],
+                "underlying": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "Year",
+                        "dataType": "integer",
+                        "index": 2
+                    },
+                    {
+                        "name": "Patent and Trade Mark Applications, total",
+                        "dataType": "integer",
+                        "index": 3
+                    },
+                    {
+                        "name": "Patent Applications Nonresident",
+                        "dataType": "integer",
+                        "index": 4
+                    },
+                    {
+                        "name": "Patent Applications Resident",
+                        "dataType": "integer",
+                        "index": 5
+                    },
+                    {
+                        "name": "Patent Applications Total",
+                        "dataType": "integer",
+                        "index": 6
+                    },
+                    {
+                        "name": "Trademark Applications Total",
+                        "dataType": "integer",
+                        "index": 7
+                    }
+                ]
+            },
+            "data": {
+                "summary": [
+                    {
+                        "Country": {
+                            "value": "Poland",
+                            "formattedValue": "Poland"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "512414",
+                            "formattedValue": "512 414,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Colombia",
+                            "formattedValue": "Colombia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "176967",
+                            "formattedValue": "176 967,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "New Zealand",
+                            "formattedValue": "New Zealand"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "723968",
+                            "formattedValue": "723 968,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Vietnam",
+                            "formattedValue": "Vietnam"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "271376",
+                            "formattedValue": "271 376,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Singapore",
+                            "formattedValue": "Singapore"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "958881",
+                            "formattedValue": "958 881,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Switzerland",
+                            "formattedValue": "Switzerland"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "234045",
+                            "formattedValue": "234 045,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malaysia",
+                            "formattedValue": "Malaysia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "606900",
+                            "formattedValue": "606 900,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belgium",
+                            "formattedValue": "Belgium"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "80276",
+                            "formattedValue": "80 276,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ukraine",
+                            "formattedValue": "Ukraine"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "570843",
+                            "formattedValue": "570 843,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iran, Islamic Rep.",
+                            "formattedValue": "Iran, Islamic Rep."
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "827449",
+                            "formattedValue": "827 449,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "South Africa",
+                            "formattedValue": "South Africa"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "719761",
+                            "formattedValue": "719 761,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Chile",
+                            "formattedValue": "Chile"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "297087",
+                            "formattedValue": "297 087,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Hong Kong SAR, China",
+                            "formattedValue": "Hong Kong SAR, China"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "1224475",
+                            "formattedValue": "1 224 475,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Thailand",
+                            "formattedValue": "Thailand"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "597324",
+                            "formattedValue": "597 324,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Indonesia",
+                            "formattedValue": "Indonesia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "484827",
+                            "formattedValue": "484 827,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Italy",
+                            "formattedValue": "Italy"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "601384",
+                            "formattedValue": "601 384,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Spain",
+                            "formattedValue": "Spain"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "356916",
+                            "formattedValue": "356 916,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United Kingdom",
+                            "formattedValue": "United Kingdom"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2771398",
+                            "formattedValue": "2 771 398,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Turkey",
+                            "formattedValue": "Turkey"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "291613",
+                            "formattedValue": "291 613,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Canada",
+                            "formattedValue": "Canada"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "4005085",
+                            "formattedValue": "4 005 085,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Russian Federation",
+                            "formattedValue": "Russian Federation"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3975566",
+                            "formattedValue": "3 975 566,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mexico",
+                            "formattedValue": "Mexico"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "1526126",
+                            "formattedValue": "1 526 126,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "France",
+                            "formattedValue": "France"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "1768445",
+                            "formattedValue": "1 768 445,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Germany",
+                            "formattedValue": "Germany"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "6380353",
+                            "formattedValue": "6 380 353,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Brazil",
+                            "formattedValue": "Brazil"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2350803",
+                            "formattedValue": "2 350 803,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "India",
+                            "formattedValue": "India"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3025358",
+                            "formattedValue": "3 025 358,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Korea, Rep.",
+                            "formattedValue": "Korea, Rep."
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "16506553",
+                            "formattedValue": "16 506 553,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Japan",
+                            "formattedValue": "Japan"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "40416880",
+                            "formattedValue": "40 416 880,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United States",
+                            "formattedValue": "United States"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "45699584",
+                            "formattedValue": "45 699 584,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "China",
+                            "formattedValue": "China"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:Calculation_142285667957362688:qk]",
+                            "formattedValue": "Patent Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "34918793",
+                            "formattedValue": "34 918 793,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Poland",
+                            "formattedValue": "Poland"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2202781",
+                            "formattedValue": "2 202 781,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Colombia",
+                            "formattedValue": "Colombia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2309601",
+                            "formattedValue": "2 309 601,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "New Zealand",
+                            "formattedValue": "New Zealand"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "1998878",
+                            "formattedValue": "1 998 878,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Vietnam",
+                            "formattedValue": "Vietnam"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2643333",
+                            "formattedValue": "2 643 333,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Singapore",
+                            "formattedValue": "Singapore"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2018471",
+                            "formattedValue": "2 018 471,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Switzerland",
+                            "formattedValue": "Switzerland"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2884763",
+                            "formattedValue": "2 884 763,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malaysia",
+                            "formattedValue": "Malaysia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2565010",
+                            "formattedValue": "2 565 010,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belgium",
+                            "formattedValue": "Belgium"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3118668",
+                            "formattedValue": "3 118 668,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ukraine",
+                            "formattedValue": "Ukraine"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2676016",
+                            "formattedValue": "2 676 016,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iran, Islamic Rep.",
+                            "formattedValue": "Iran, Islamic Rep."
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2798467",
+                            "formattedValue": "2 798 467,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "South Africa",
+                            "formattedValue": "South Africa"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3050768",
+                            "formattedValue": "3 050 768,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Chile",
+                            "formattedValue": "Chile"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3522022",
+                            "formattedValue": "3 522 022,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Hong Kong SAR, China",
+                            "formattedValue": "Hong Kong SAR, China"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "2802079",
+                            "formattedValue": "2 802 079,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Thailand",
+                            "formattedValue": "Thailand"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "3794427",
+                            "formattedValue": "3 794 427,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Indonesia",
+                            "formattedValue": "Indonesia"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "4566030",
+                            "formattedValue": "4 566 030,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Italy",
+                            "formattedValue": "Italy"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "4452805",
+                            "formattedValue": "4 452 805,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Spain",
+                            "formattedValue": "Spain"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "6539365",
+                            "formattedValue": "6 539 365,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United Kingdom",
+                            "formattedValue": "United Kingdom"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "4173988",
+                            "formattedValue": "4 173 988,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Turkey",
+                            "formattedValue": "Turkey"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "7428967",
+                            "formattedValue": "7 428 967,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Canada",
+                            "formattedValue": "Canada"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "4665647",
+                            "formattedValue": "4 665 647,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Russian Federation",
+                            "formattedValue": "Russian Federation"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "5480482",
+                            "formattedValue": "5 480 482,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mexico",
+                            "formattedValue": "Mexico"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "8315475",
+                            "formattedValue": "8 315 475,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "France",
+                            "formattedValue": "France"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "8773058",
+                            "formattedValue": "8 773 058,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Germany",
+                            "formattedValue": "Germany"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "7903385",
+                            "formattedValue": "7 903 385,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Brazil",
+                            "formattedValue": "Brazil"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "12462919",
+                            "formattedValue": "12 462 919,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "India",
+                            "formattedValue": "India"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "14188447",
+                            "formattedValue": "14 188 447,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Korea, Rep.",
+                            "formattedValue": "Korea, Rep."
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "13585999",
+                            "formattedValue": "13 585 999,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Japan",
+                            "formattedValue": "Japan"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "13075188",
+                            "formattedValue": "13 075 188,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United States",
+                            "formattedValue": "United States"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "29156673",
+                            "formattedValue": "29 156 673,00"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "China",
+                            "formattedValue": "China"
+                        },
+                        "Noms de mesures": {
+                            "value": "[sqlproxy.04uhldh18eh91y13occx30zvwzio].[sum:trademark_applications_total:qk]",
+                            "formattedValue": "Trademark Applications Total"
+                        },
+                        "Valeurs de mesures": {
+                            "value": "94116148",
+                            "formattedValue": "94 116 148,00"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Chart Type",
+            "type": "string",
+            "value": {
+                "value": "Bar",
+                "formattedValue": "Bar"
+            }
+        },
+        {
+            "name": "Sort By",
+            "type": "string",
+            "value": {
+                "value": "Terciary",
+                "formattedValue": "Terciary"
+            }
+        }
+    ],
+    "image": "resources/snapshot-EducationandInnovationRB-PatentandTrademarkBAR.png"
+}

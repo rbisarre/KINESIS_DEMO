@@ -1,0 +1,10 @@
+{
+    "context-variables": {
+        "TABLEAU_PROJECT": "RBisarre_Transport",
+        "TABLEAU_PWD": "3wZVAr4HQn8=;encrypted",
+        "TABLEAU_SITE": "Presales",
+        "TABLEAU_URL": "http://tableau-demo.360suite.io:9123/",
+        "TABLEAU_USER": "rbisarre",
+        "TABLEAU_VERSION": "2020.3"
+    }
+}

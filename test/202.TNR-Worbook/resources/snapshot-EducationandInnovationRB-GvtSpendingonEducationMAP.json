@@ -1,0 +1,133 @@
+{
+    "name": "GvtSpendingonEducationMAP",
+    "uniqueName": "EducationandInnovationRB-GvtSpendingonEducationMAP",
+    "url": "http://tableau-demo.360suite.io:9123//t/Demo/views/EducationandInnovationRB/GvtSpendingonEducationMAP",
+    "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovationRB/GvtSpendingonEducationMAP",
+    "timestamp": 1622615883397,
+    "content": {
+        "filters": true,
+        "fullColumns": true,
+        "image": true,
+        "parameters": true,
+        "summaryColumns": true,
+        "summaryData": true,
+        "worksheets": true
+    },
+    "worksheets": [
+        {
+            "name": "Gvt Spending on Education MAP",
+            "filters": [
+                {
+                    "caption": "V_Chart Type",
+                    "type": "categorical",
+                    "values": []
+                },
+                {
+                    "caption": "Region",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Year",
+                    "type": "quantitative",
+                    "values": {
+                        "min": {
+                            "value": 2000,
+                            "formattedValue": "2000"
+                        },
+                        "max": {
+                            "value": 2015,
+                            "formattedValue": "2015"
+                        }
+                    }
+                }
+            ],
+            "columns": {
+                "summary": [],
+                "underlying": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "V_Chart Type",
+                        "dataType": "string",
+                        "index": 2
+                    },
+                    {
+                        "name": "Year",
+                        "dataType": "integer",
+                        "index": 3
+                    },
+                    {
+                        "name": "AVG Government expenditure on education",
+                        "dataType": "float",
+                        "index": 4
+                    },
+                    {
+                        "name": "government expenditure on education pc of GDP",
+                        "dataType": "float",
+                        "index": 5
+                    }
+                ]
+            },
+            "data": {
+                "summary": []
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Sort By",
+            "type": "string",
+            "value": {
+                "value": "Terciary",
+                "formattedValue": "Terciary"
+            }
+        },
+        {
+            "name": "Chart Type",
+            "type": "string",
+            "value": {
+                "value": "Bar",
+                "formattedValue": "Bar"
+            }
+        }
+    ],
+    "image": "resources/snapshot-EducationandInnovationRB-GvtSpendingonEducationMAP.png"
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/kinesis.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/mohsen1/json-formatter-js/v1.1.0/dist/bundle.js" type="text/javascript"></script> <!-- json-formatter-js, distributed as bundle.js on github -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" type="text/javascript"></script>
+    <script src="https://raw.githubusercontent.com/i-like-robots/EasyZoom/master/dist/easyzoom.js" type="text/javascript"></script>
+    <!-- Init easyzoom -->
+    <script language="javascript">$(document).ready(function() { $('.easyzoom').easyZoom(); });</script>
+    <meta charset="UTF-8">
+    <base target="_blank">
+    <title></title>
+</head>
+<body>
+<div class="col-md-1"></div>
+<div class="col-md-10">
+    <table class="table table-borderless">
+        <tr>
+            <td class="col-md-3 text-center vert-align">
+                
+                    <h4><span class="label label-success">&#9989; Success</span></h4>
+                
+            </td>
+            <td class="col-md-6 text-center vert-align">
+                <h3>TNR_Cross_Env2</h3>
+                <h5></h5>
+                <h5>2021-06-02 08:05:57</h5>
+            </td>
+            <td class="col-md-3 text-center vert-align"><img src="images/kinesis-logo.png"/></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Summary</h3>
+<table class="table table-striped">
+    <!--<caption>Summary</caption>-->
+    <thead>
+    <tr>
+        <!--<td>#</td>-->
+        <td>Task Name</td>
+        <td>Status</td>
+        <td>Time</td>
+    </tr>
+    </thead>
+    <!--For each task...-->
+    <!--Each task should contain an anchor link to the task config later down the page-->
+
+    <tbody>
+    
+    <tr>
+        <td><a href="#link-809653072">Compare Education Dashboard between UAT and Prod</a></td>
+        
+            <td><p class="text-success">&#9989;</p></td>
+        
+        <td>42,274s</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+            <h3>Task Details</h3>
+    
+   <a name="link-809653072"></a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="details-head-col1">Task Name (1/1)</th>
+                <th>Compare Education Dashboard between UAT and Prod</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Configuration</td>
+                <td id="task-809653072"></td>
+                <script type="text/javascript">
+                    var jsonData = {"check-parameters-exist":true,"tableau-server-user":"{{TABLEAU_USER}}","use-formatted-values":true,"check-filter-types":true,"disabled":false,"check-columns-summary":true,"source-context":"UAT(Presales).json","name":"Compare Education Dashboard between UAT and Prod","check-parameter-types":true,"render-context-vars-by-task-invoker":true,"check-filter-values":true,"type":"crossenv_test","check-worksheets-exist":true,"check-data-summary":true,"check-parameter-values":true,"check-filters-exist":true,"check-columns-underlying":true,"tableau-server-url":"{{TABLEAU_URL}}","target-env":{"target-context":"-- Active Context --","target-tableau-server-version":"2021.1","target-url":"{{TABLEAU_URL}}\/t\/{{TABLEAU_SITE}}\/views\/EducationandInnovationRB\/Dashboard"},"url":"{{TABLEAU_URL}}\/t\/{{TABLEAU_SITE}}\/views\/EducationandInnovationRB\/Dashboard","image":{"sampling-size":50,"threshold-percentage":10},"site-id":"{{TABLEAU_SITE}}","check-image":true,"refresh-data":false,"tableau-server-password":"********"};
+                    var formatter = new JSONFormatter(jsonData, 0);
+                    var tag = document.getElementById("task-809653072");
+                    tag.appendChild(formatter.render());
+                </script>
+            </tr>
+            <tr>
+                <td>Artifact</td>
+                <td>
+                    
+                        Not available
+                    
+                </td>
+            </tr>
+            
+            
+                
+
+<tr>
+    <td>Check Results</td>
+    <td>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <td class="bg-primary tex-primary"><h4>Tests run</h4></td>
+                <td class="bg-success text-success"><h4>Successes</h4></td>
+                <td class="bg-info text-info"><h4>Skips</h4></td>
+                <td class="bg-danger text-danger"><h4>Failures</h4></td>
+            </tr>
+            </thead>
+            <tbody>
+                <td><strong>11</strong></td>
+                <td><strong>11</strong></td>
+                <td><strong>0</strong></td>
+                <td><strong>0</strong></td>
+            </tbody>
+        </table>
+
+        <table class="table table-striped">
+            <caption><h4>Checks</h4></caption>
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check worksheets exist</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check columns summary</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check columns full</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check data summary</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check image</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check filters exist</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check filter types</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check filter values</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check parameters exist</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check parameter types</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+                    <thead>
+                        <tr class="bg-success text-success">
+                            <td><strong>Check parameter values</strong></td>
+                            
+                                <td><strong>&#9989;</strong></td>
+                            
+                            <td><strong>Baseline/Source and Actual/Target matches</strong></td>
+                        </tr>
+                    </thead>
+                    
+            
+        </table>
+    </td>
+</tr>
+
+            
+            
+            
+            <tr>
+                <td>Screenshot</td>
+                <td class="col-md-12">
+                    
+                        <img class="img-responsive img-thumbnail" src="screenshots/kinesis-20210602T080555.565+0200.png"/>
+                    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+        
+    
+
+        </div>
+    </div>
+</div>
+<div class="col-md-1"></div>
+</body>
+</html>

@@ -1,0 +1,738 @@
+{
+    "name": "GvtSpendingonEducationBAR",
+    "uniqueName": "EducationandInnovationRB-GvtSpendingonEducationBAR",
+    "url": "http://tableau-demo.360suite.io:9123//t/Demo/views/EducationandInnovationRB/GvtSpendingonEducationBAR",
+    "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovationRB/GvtSpendingonEducationBAR",
+    "timestamp": 1622615874148,
+    "content": {
+        "filters": true,
+        "fullColumns": true,
+        "image": true,
+        "parameters": true,
+        "summaryColumns": true,
+        "summaryData": true,
+        "worksheets": true
+    },
+    "worksheets": [
+        {
+            "name": "Gvt Spending on Education BAR",
+            "filters": [
+                {
+                    "caption": "Government Expenditure above 4% of GDP",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "BEL",
+                            "formattedValue": "BEL"
+                        },
+                        {
+                            "value": "BOL",
+                            "formattedValue": "BOL"
+                        },
+                        {
+                            "value": "BRB",
+                            "formattedValue": "BRB"
+                        },
+                        {
+                            "value": "CUB",
+                            "formattedValue": "CUB"
+                        },
+                        {
+                            "value": "CYP",
+                            "formattedValue": "CYP"
+                        },
+                        {
+                            "value": "DJI",
+                            "formattedValue": "DJI"
+                        },
+                        {
+                            "value": "DNK",
+                            "formattedValue": "DNK"
+                        },
+                        {
+                            "value": "FIN",
+                            "formattedValue": "FIN"
+                        },
+                        {
+                            "value": "FRA",
+                            "formattedValue": "FRA"
+                        },
+                        {
+                            "value": "GBR",
+                            "formattedValue": "GBR"
+                        },
+                        {
+                            "value": "GHA",
+                            "formattedValue": "GHA"
+                        },
+                        {
+                            "value": "GUY",
+                            "formattedValue": "GUY"
+                        },
+                        {
+                            "value": "IRL",
+                            "formattedValue": "IRL"
+                        },
+                        {
+                            "value": "IRN",
+                            "formattedValue": "IRN"
+                        },
+                        {
+                            "value": "ISL",
+                            "formattedValue": "ISL"
+                        },
+                        {
+                            "value": "ISR",
+                            "formattedValue": "ISR"
+                        },
+                        {
+                            "value": "JAM",
+                            "formattedValue": "JAM"
+                        },
+                        {
+                            "value": "KGZ",
+                            "formattedValue": "KGZ"
+                        },
+                        {
+                            "value": "LSO",
+                            "formattedValue": "LSO"
+                        },
+                        {
+                            "value": "LTU",
+                            "formattedValue": "LTU"
+                        },
+                        {
+                            "value": "MDA",
+                            "formattedValue": "MDA"
+                        },
+                        {
+                            "value": "MYS",
+                            "formattedValue": "MYS"
+                        },
+                        {
+                            "value": "NLD",
+                            "formattedValue": "NLD"
+                        },
+                        {
+                            "value": "NOR",
+                            "formattedValue": "NOR"
+                        },
+                        {
+                            "value": "NZL",
+                            "formattedValue": "NZL"
+                        },
+                        {
+                            "value": "STP",
+                            "formattedValue": "STP"
+                        },
+                        {
+                            "value": "SVN",
+                            "formattedValue": "SVN"
+                        },
+                        {
+                            "value": "SWE",
+                            "formattedValue": "SWE"
+                        },
+                        {
+                            "value": "SWZ",
+                            "formattedValue": "SWZ"
+                        },
+                        {
+                            "value": "TUN",
+                            "formattedValue": "TUN"
+                        },
+                        {
+                            "value": "UKR",
+                            "formattedValue": "UKR"
+                        },
+                        {
+                            "value": "ZAF",
+                            "formattedValue": "ZAF"
+                        }
+                    ]
+                },
+                {
+                    "caption": "V_Chart Type",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Bar",
+                            "formattedValue": "Bar"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Region",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Year",
+                    "type": "quantitative",
+                    "values": {
+                        "min": {
+                            "value": 2000,
+                            "formattedValue": "2000"
+                        },
+                        "max": {
+                            "value": 2015,
+                            "formattedValue": "2015"
+                        }
+                    }
+                }
+            ],
+            "columns": {
+                "summary": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "AGG(AVG Government expenditure on education)",
+                        "dataType": "float",
+                        "index": 2
+                    }
+                ],
+                "underlying": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "Country Code",
+                        "dataType": "string",
+                        "index": 2
+                    },
+                    {
+                        "name": "V_Chart Type",
+                        "dataType": "string",
+                        "index": 3
+                    },
+                    {
+                        "name": "Year",
+                        "dataType": "integer",
+                        "index": 4
+                    },
+                    {
+                        "name": "AVG Government expenditure on education",
+                        "dataType": "float",
+                        "index": 5
+                    },
+                    {
+                        "name": "government expenditure on education pc of GDP",
+                        "dataType": "float",
+                        "index": 6
+                    }
+                ]
+            },
+            "data": {
+                "summary": [
+                    {
+                        "Country": {
+                            "value": "New Zealand",
+                            "formattedValue": "New Zealand"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8255000000000052",
+                            "formattedValue": "4,82550"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iran, Islamic Rep.",
+                            "formattedValue": "Iran, Islamic Rep."
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.0715625000000006",
+                            "formattedValue": "4,07156"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Israel",
+                            "formattedValue": "Israel"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.4427499999999976",
+                            "formattedValue": "4,44275"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guyana",
+                            "formattedValue": "Guyana"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.2976250000000018",
+                            "formattedValue": "4,29763"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Barbados",
+                            "formattedValue": "Barbados"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.5718749999999978",
+                            "formattedValue": "4,57188"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bolivia",
+                            "formattedValue": "Bolivia"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.586500000000001",
+                            "formattedValue": "4,58650"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Jamaica",
+                            "formattedValue": "Jamaica"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8447500000000004",
+                            "formattedValue": "4,84475"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cuba",
+                            "formattedValue": "Cuba"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "7.3341875000000006",
+                            "formattedValue": "7,33419"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ireland",
+                            "formattedValue": "Ireland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.0314375000000071",
+                            "formattedValue": "4,03144"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belgium",
+                            "formattedValue": "Belgium"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1499375000000027",
+                            "formattedValue": "4,14994"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Slovenia",
+                            "formattedValue": "Slovenia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1545624999999982",
+                            "formattedValue": "4,15456"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Netherlands",
+                            "formattedValue": "Netherlands"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1902500000000007",
+                            "formattedValue": "4,19025"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United Kingdom",
+                            "formattedValue": "United Kingdom"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.2080624999999996",
+                            "formattedValue": "4,20806"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "France",
+                            "formattedValue": "France"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.500250000000004",
+                            "formattedValue": "4,50025"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cyprus",
+                            "formattedValue": "Cyprus"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.6988749999999966",
+                            "formattedValue": "4,69888"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ukraine",
+                            "formattedValue": "Ukraine"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8046249999999998",
+                            "formattedValue": "4,80463"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Finland",
+                            "formattedValue": "Finland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.0088750000000006",
+                            "formattedValue": "5,00888"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iceland",
+                            "formattedValue": "Iceland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.3593125000000077",
+                            "formattedValue": "5,35931"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sweden",
+                            "formattedValue": "Sweden"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.455687499999998",
+                            "formattedValue": "5,45569"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Norway",
+                            "formattedValue": "Norway"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.575937500000002",
+                            "formattedValue": "5,57594"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Denmark",
+                            "formattedValue": "Denmark"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.0885000000000096",
+                            "formattedValue": "6,08850"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Moldova",
+                            "formattedValue": "Moldova"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.3281875000000003",
+                            "formattedValue": "6,32819"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lithuania",
+                            "formattedValue": "Lithuania"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "8.6955000000000044",
+                            "formattedValue": "8,69550"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malaysia",
+                            "formattedValue": "Malaysia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.4173124999999969",
+                            "formattedValue": "4,41731"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kyrgyz Republic",
+                            "formattedValue": "Kyrgyz Republic"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.794687500000002",
+                            "formattedValue": "4,79469"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sao Tome and Principe",
+                            "formattedValue": "Sao Tome and Principe"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1812499999999995",
+                            "formattedValue": "4,18125"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ghana",
+                            "formattedValue": "Ghana"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.3563750000000026",
+                            "formattedValue": "4,35638"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Djibouti",
+                            "formattedValue": "Djibouti"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.600562499999998",
+                            "formattedValue": "4,60056"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Swaziland",
+                            "formattedValue": "Swaziland"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.6858125000000036",
+                            "formattedValue": "4,68581"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tunisia",
+                            "formattedValue": "Tunisia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.7696250000000032",
+                            "formattedValue": "4,76963"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "South Africa",
+                            "formattedValue": "South Africa"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.058500000000004",
+                            "formattedValue": "5,05850"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lesotho",
+                            "formattedValue": "Lesotho"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.5368749999999968",
+                            "formattedValue": "6,53688"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Sort By",
+            "type": "string",
+            "value": {
+                "value": "Terciary",
+                "formattedValue": "Terciary"
+            }
+        },
+        {
+            "name": "Chart Type",
+            "type": "string",
+            "value": {
+                "value": "Bar",
+                "formattedValue": "Bar"
+            }
+        }
+    ],
+    "image": "resources/snapshot-EducationandInnovationRB-GvtSpendingonEducationBAR.png"
+}

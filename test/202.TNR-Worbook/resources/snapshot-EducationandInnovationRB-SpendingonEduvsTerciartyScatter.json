@@ -1,0 +1,3822 @@
+{
+    "name": "SpendingonEduvsTerciartyScatter",
+    "uniqueName": "EducationandInnovationRB-SpendingonEduvsTerciartyScatter",
+    "url": "http://tableau-demo.360suite.io:9123//t/Demo/views/EducationandInnovationRB/SpendingonEduvsTerciartyScatter",
+    "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovationRB/SpendingonEduvsTerciartyScatter",
+    "timestamp": 1622615896959,
+    "content": {
+        "filters": true,
+        "fullColumns": true,
+        "image": true,
+        "parameters": true,
+        "summaryColumns": true,
+        "summaryData": true,
+        "worksheets": true
+    },
+    "worksheets": [
+        {
+            "name": "Spending on Edu vs Terciarty Scatter",
+            "filters": [
+                {
+                    "caption": "Region",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Year",
+                    "type": "quantitative",
+                    "values": {
+                        "min": {
+                            "value": 2000,
+                            "formattedValue": "2000"
+                        },
+                        "max": {
+                            "value": 2015,
+                            "formattedValue": "2015"
+                        }
+                    }
+                }
+            ],
+            "columns": {
+                "summary": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "AGG(AVG Government expenditure on education)",
+                        "dataType": "float",
+                        "index": 2
+                    },
+                    {
+                        "name": "MOY(Gross Enrollment Ratio Terciary Both Sexes)",
+                        "dataType": "float",
+                        "index": 3
+                    }
+                ],
+                "underlying": [
+                    {
+                        "name": "Country",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 1
+                    },
+                    {
+                        "name": "Year",
+                        "dataType": "integer",
+                        "index": 2
+                    },
+                    {
+                        "name": "AVG Government expenditure on education",
+                        "dataType": "float",
+                        "index": 3
+                    },
+                    {
+                        "name": "government expenditure on education pc of GDP",
+                        "dataType": "float",
+                        "index": 4
+                    },
+                    {
+                        "name": "Gross Enrollment Ratio Terciary Both Sexes",
+                        "dataType": "float",
+                        "index": 5
+                    }
+                ]
+            },
+            "data": {
+                "summary": [
+                    {
+                        "Country": {
+                            "value": "Vanuatu",
+                            "formattedValue": "Vanuatu"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.7078124999999988",
+                            "formattedValue": "2,70781"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.3639375000000007",
+                            "formattedValue": "1,3639"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tuvalu",
+                            "formattedValue": "Tuvalu"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tonga",
+                            "formattedValue": "Tonga"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.3323125000000003",
+                            "formattedValue": "1,33231"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.3093749999999995",
+                            "formattedValue": "1,3094"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Solomon Islands",
+                            "formattedValue": "Solomon Islands"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3533750000000007",
+                            "formattedValue": "2,35338"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Samoa",
+                            "formattedValue": "Samoa"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.0246250000000001",
+                            "formattedValue": "1,02463"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.472625",
+                            "formattedValue": "0,4726"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Papua New Guinea",
+                            "formattedValue": "Papua New Guinea"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Palau",
+                            "formattedValue": "Palau"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.426",
+                            "formattedValue": "1,42600"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "8.5483125000000034",
+                            "formattedValue": "8,5483"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Northern Mariana Islands",
+                            "formattedValue": "Northern Mariana Islands"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "New Zealand",
+                            "formattedValue": "New Zealand"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8255000000000052",
+                            "formattedValue": "4,82550"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "67.269187500000044",
+                            "formattedValue": "67,2692"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "New Caledonia",
+                            "formattedValue": "New Caledonia"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Nauru",
+                            "formattedValue": "Nauru"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Micronesia, Fed. Sts.",
+                            "formattedValue": "Micronesia, Fed. Sts."
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.41925",
+                            "formattedValue": "0,41925"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.882625",
+                            "formattedValue": "0,8826"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Marshall Islands",
+                            "formattedValue": "Marshall Islands"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.306875",
+                            "formattedValue": "1,30688"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.6961250000000008",
+                            "formattedValue": "3,6961"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kiribati",
+                            "formattedValue": "Kiribati"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.4456875",
+                            "formattedValue": "1,44569"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guam",
+                            "formattedValue": "Guam"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "French Polynesia",
+                            "formattedValue": "French Polynesia"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Fiji",
+                            "formattedValue": "Fiji"
+                        },
+                        "Region": {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.6095000000000028",
+                            "formattedValue": "3,60950"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.991625",
+                            "formattedValue": "2,9916"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United States",
+                            "formattedValue": "United States"
+                        },
+                        "Region": {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.6653750000000006",
+                            "formattedValue": "3,66538"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "73.386499999999984",
+                            "formattedValue": "73,3865"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Canada",
+                            "formattedValue": "Canada"
+                        },
+                        "Region": {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.8287499999999986",
+                            "formattedValue": "2,82875"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.6802500000000006",
+                            "formattedValue": "3,6803"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bermuda",
+                            "formattedValue": "Bermuda"
+                        },
+                        "Region": {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.7795625000000004",
+                            "formattedValue": "0,77956"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "16.539000000000002",
+                            "formattedValue": "16,5390"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Yemen, Rep.",
+                            "formattedValue": "Yemen, Rep."
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.4667500000000008",
+                            "formattedValue": "1,46675"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "6.3788749999999954",
+                            "formattedValue": "6,3789"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "West Bank and Gaza",
+                            "formattedValue": "West Bank and Gaza"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "38.045562499999967",
+                            "formattedValue": "38,0456"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United Arab Emirates",
+                            "formattedValue": "United Arab Emirates"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.9981250000000008",
+                            "formattedValue": "7,9981"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Syrian Arab Republic",
+                            "formattedValue": "Syrian Arab Republic"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.5751250000000004",
+                            "formattedValue": "2,57513"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "16.822625000000006",
+                            "formattedValue": "16,8226"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Saudi Arabia",
+                            "formattedValue": "Saudi Arabia"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.2044999999999981",
+                            "formattedValue": "3,20450"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "32.448187500000003",
+                            "formattedValue": "32,4482"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Qatar",
+                            "formattedValue": "Qatar"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.3707500000000019",
+                            "formattedValue": "3,37075"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "12.523750000000002",
+                            "formattedValue": "12,5238"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Oman",
+                            "formattedValue": "Oman"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.939625",
+                            "formattedValue": "1,93963"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "12.061562499999994",
+                            "formattedValue": "12,0616"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lebanon",
+                            "formattedValue": "Lebanon"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.750374999999999",
+                            "formattedValue": "1,75038"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "42.4029375",
+                            "formattedValue": "42,4029"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kuwait",
+                            "formattedValue": "Kuwait"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.6981249999999992",
+                            "formattedValue": "1,69813"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.2234375000000029",
+                            "formattedValue": "7,2234"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Jordan",
+                            "formattedValue": "Jordan"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "29.208499999999976",
+                            "formattedValue": "29,2085"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Israel",
+                            "formattedValue": "Israel"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.4427499999999976",
+                            "formattedValue": "4,44275"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "48.108375000000017",
+                            "formattedValue": "48,1084"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iraq",
+                            "formattedValue": "Iraq"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.5540000000000016",
+                            "formattedValue": "3,5540"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iran, Islamic Rep.",
+                            "formattedValue": "Iran, Islamic Rep."
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.0715625000000006",
+                            "formattedValue": "4,07156"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "32.536687500000014",
+                            "formattedValue": "32,5367"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bahrain",
+                            "formattedValue": "Bahrain"
+                        },
+                        "Region": {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.6619375",
+                            "formattedValue": "0,66194"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "14.790937499999997",
+                            "formattedValue": "14,7909"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Virgin Islands (U.S.)",
+                            "formattedValue": "Virgin Islands (U.S.)"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Venezuela, RB",
+                            "formattedValue": "Venezuela, RB"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.8856875000000002",
+                            "formattedValue": "0,88569"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "18.905937499999997",
+                            "formattedValue": "18,9059"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Uruguay",
+                            "formattedValue": "Uruguay"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.3789999999999996",
+                            "formattedValue": "1,37900"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "33.797874999999991",
+                            "formattedValue": "33,7979"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Turks and Caicos Islands",
+                            "formattedValue": "Turks and Caicos Islands"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.00475",
+                            "formattedValue": "0,0048"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Trinidad and Tobago",
+                            "formattedValue": "Trinidad and Tobago"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.7825000000000004",
+                            "formattedValue": "0,78250"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.6204375",
+                            "formattedValue": "2,6204"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "St. Vincent and the Grenadines",
+                            "formattedValue": "St. Vincent and the Grenadines"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.9470625000000008",
+                            "formattedValue": "2,94706"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "St. Martin (French part)",
+                            "formattedValue": "St. Martin (French part)"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "St. Lucia",
+                            "formattedValue": "St. Lucia"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.5732499999999954",
+                            "formattedValue": "3,57325"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "9.2832499999999989",
+                            "formattedValue": "9,2833"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "St. Kitts and Nevis",
+                            "formattedValue": "St. Kitts and Nevis"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0715624999999998",
+                            "formattedValue": "2,07156"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "6.0831875000000011",
+                            "formattedValue": "6,0832"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sint Maarten (Dutch part)",
+                            "formattedValue": "Sint Maarten (Dutch part)"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Puerto Rico",
+                            "formattedValue": "Puerto Rico"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.3988749999999999",
+                            "formattedValue": "0,39888"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "35.970812499999987",
+                            "formattedValue": "35,9708"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Peru",
+                            "formattedValue": "Peru"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.7878749999999966",
+                            "formattedValue": "2,78788"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "16.888124999999999",
+                            "formattedValue": "16,8881"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Paraguay",
+                            "formattedValue": "Paraguay"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3329999999999993",
+                            "formattedValue": "2,33300"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "17.009124999999994",
+                            "formattedValue": "17,0091"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Panama",
+                            "formattedValue": "Panama"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.8038749999999998",
+                            "formattedValue": "1,80388"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "37.182062499999994",
+                            "formattedValue": "37,1821"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Nicaragua",
+                            "formattedValue": "Nicaragua"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.7692499999999996",
+                            "formattedValue": "0,76925"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.0751875",
+                            "formattedValue": "1,0752"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mexico",
+                            "formattedValue": "Mexico"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.6238125000000002",
+                            "formattedValue": "3,62381"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "20.97456249999998",
+                            "formattedValue": "20,9746"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Jamaica",
+                            "formattedValue": "Jamaica"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8447500000000004",
+                            "formattedValue": "4,84475"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "18.236562499999987",
+                            "formattedValue": "18,2366"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Honduras",
+                            "formattedValue": "Honduras"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.3671875",
+                            "formattedValue": "0,36719"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "9.3881250000000005",
+                            "formattedValue": "9,3881"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Haiti",
+                            "formattedValue": "Haiti"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.4088124999999999",
+                            "formattedValue": "0,4088"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guyana",
+                            "formattedValue": "Guyana"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.2976250000000018",
+                            "formattedValue": "4,29763"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.7896250000000036",
+                            "formattedValue": "7,7896"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guatemala",
+                            "formattedValue": "Guatemala"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.2956875000000008",
+                            "formattedValue": "1,29569"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.7533125000000004",
+                            "formattedValue": "2,7533"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Grenada",
+                            "formattedValue": "Grenada"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.2454375",
+                            "formattedValue": "0,24544"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.2985624999999996",
+                            "formattedValue": "3,2986"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "El Salvador",
+                            "formattedValue": "El Salvador"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.9744999999999996",
+                            "formattedValue": "1,97450"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "21.383687499999979",
+                            "formattedValue": "21,3837"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ecuador",
+                            "formattedValue": "Ecuador"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.8576250000000004",
+                            "formattedValue": "0,85763"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.4393124999999989",
+                            "formattedValue": "7,4393"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Dominican Republic",
+                            "formattedValue": "Dominican Republic"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.6146875000000002",
+                            "formattedValue": "0,61469"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.9729999999999964",
+                            "formattedValue": "7,9730"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Dominica",
+                            "formattedValue": "Dominica"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Curacao",
+                            "formattedValue": "Curacao"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.2695625",
+                            "formattedValue": "1,2696"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cuba",
+                            "formattedValue": "Cuba"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "7.3341875000000006",
+                            "formattedValue": "7,33419"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "61.990062500000015",
+                            "formattedValue": "61,9901"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Costa Rica",
+                            "formattedValue": "Costa Rica"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.507875000000001",
+                            "formattedValue": "1,50788"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "14.177062500000003",
+                            "formattedValue": "14,1771"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Colombia",
+                            "formattedValue": "Colombia"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.9839374999999984",
+                            "formattedValue": "3,98394"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "30.855750000000018",
+                            "formattedValue": "30,8558"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Chile",
+                            "formattedValue": "Chile"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.121375",
+                            "formattedValue": "3,12138"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "46.767812499999977",
+                            "formattedValue": "46,7678"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cayman Islands",
+                            "formattedValue": "Cayman Islands"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "British Virgin Islands",
+                            "formattedValue": "British Virgin Islands"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "11.149750000000003",
+                            "formattedValue": "11,1498"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Brazil",
+                            "formattedValue": "Brazil"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.6168124999999992",
+                            "formattedValue": "3,61681"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bolivia",
+                            "formattedValue": "Bolivia"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.586500000000001",
+                            "formattedValue": "4,58650"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "13.855500000000005",
+                            "formattedValue": "13,8555"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belize",
+                            "formattedValue": "Belize"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.872437499999998",
+                            "formattedValue": "2,87244"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "15.468500000000009",
+                            "formattedValue": "15,4685"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Barbados",
+                            "formattedValue": "Barbados"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.5718749999999978",
+                            "formattedValue": "4,57188"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "21.944374999999987",
+                            "formattedValue": "21,9444"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bahamas, The",
+                            "formattedValue": "Bahamas, The"
+                        },
+                        "Region": {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.178125",
+                            "formattedValue": "0,17813"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "United Kingdom",
+                            "formattedValue": "United Kingdom"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.2080624999999996",
+                            "formattedValue": "4,20806"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "51.739812499999978",
+                            "formattedValue": "51,7398"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ukraine",
+                            "formattedValue": "Ukraine"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.8046249999999998",
+                            "formattedValue": "4,80463"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "68.138125000000016",
+                            "formattedValue": "68,1381"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Turkey",
+                            "formattedValue": "Turkey"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.0662499999999999",
+                            "formattedValue": "1,06625"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "35.680374999999991",
+                            "formattedValue": "35,6804"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Switzerland",
+                            "formattedValue": "Switzerland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.2530625",
+                            "formattedValue": "1,25306"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "41.537125000000025",
+                            "formattedValue": "41,5371"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sweden",
+                            "formattedValue": "Sweden"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.455687499999998",
+                            "formattedValue": "5,45569"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "64.902375000000021",
+                            "formattedValue": "64,9024"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Spain",
+                            "formattedValue": "Spain"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.5423750000000034",
+                            "formattedValue": "3,54238"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "62.196125000000038",
+                            "formattedValue": "62,1961"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Slovenia",
+                            "formattedValue": "Slovenia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1545624999999982",
+                            "formattedValue": "4,15456"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "67.841499999999982",
+                            "formattedValue": "67,8415"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Slovak Republic",
+                            "formattedValue": "Slovak Republic"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.1895624999999988",
+                            "formattedValue": "3,18956"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "39.319874999999989",
+                            "formattedValue": "39,3199"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Serbia",
+                            "formattedValue": "Serbia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.717312499999999",
+                            "formattedValue": "1,71731"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "41.110437499999989",
+                            "formattedValue": "41,1104"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "San Marino",
+                            "formattedValue": "San Marino"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.2933125000000001",
+                            "formattedValue": "0,29331"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "11.8118125",
+                            "formattedValue": "11,8118"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Russian Federation",
+                            "formattedValue": "Russian Federation"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0629375000000012",
+                            "formattedValue": "2,06294"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "57.877374999999965",
+                            "formattedValue": "57,8774"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Romania",
+                            "formattedValue": "Romania"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3683750000000008",
+                            "formattedValue": "2,36838"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "40.048312499999966",
+                            "formattedValue": "40,0483"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Portugal",
+                            "formattedValue": "Portugal"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.860125000000001",
+                            "formattedValue": "3,86013"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "51.549187500000002",
+                            "formattedValue": "51,5492"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Poland",
+                            "formattedValue": "Poland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.878687499999999",
+                            "formattedValue": "3,87869"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "56.763874999999985",
+                            "formattedValue": "56,7639"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Norway",
+                            "formattedValue": "Norway"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.575937500000002",
+                            "formattedValue": "5,57594"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "65.212312500000081",
+                            "formattedValue": "65,2123"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Netherlands",
+                            "formattedValue": "Netherlands"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1902500000000007",
+                            "formattedValue": "4,19025"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "50.35362499999998",
+                            "formattedValue": "50,3536"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Montenegro",
+                            "formattedValue": "Montenegro"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "18.832750000000001",
+                            "formattedValue": "18,8328"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Monaco",
+                            "formattedValue": "Monaco"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.6154375",
+                            "formattedValue": "0,61544"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Moldova",
+                            "formattedValue": "Moldova"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.3281875000000003",
+                            "formattedValue": "6,32819"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "32.380812499999983",
+                            "formattedValue": "32,3808"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malta",
+                            "formattedValue": "Malta"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.0213124999999992",
+                            "formattedValue": "3,02131"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "33.373375000000024",
+                            "formattedValue": "33,3734"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Macedonia, FYR",
+                            "formattedValue": "Macedonia, FYR"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.20625",
+                            "formattedValue": "0,20625"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "26.448937500000017",
+                            "formattedValue": "26,4489"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Luxembourg",
+                            "formattedValue": "Luxembourg"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.225125",
+                            "formattedValue": "0,22513"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "6.4181875000000011",
+                            "formattedValue": "6,4182"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lithuania",
+                            "formattedValue": "Lithuania"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "8.6955000000000044",
+                            "formattedValue": "8,69550"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "65.318687500000038",
+                            "formattedValue": "65,3187"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Liechtenstein",
+                            "formattedValue": "Liechtenstein"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.842",
+                            "formattedValue": "0,84200"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "18.757624999999994",
+                            "formattedValue": "18,7576"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Latvia",
+                            "formattedValue": "Latvia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.518250000000002",
+                            "formattedValue": "2,51825"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "62.320875000000001",
+                            "formattedValue": "62,3209"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kosovo",
+                            "formattedValue": "Kosovo"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Italy",
+                            "formattedValue": "Italy"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.292625000000001",
+                            "formattedValue": "3,29263"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "54.194812499999919",
+                            "formattedValue": "54,1948"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Isle of Man",
+                            "formattedValue": "Isle of Man"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ireland",
+                            "formattedValue": "Ireland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.0314375000000071",
+                            "formattedValue": "4,03144"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "49.954000000000015",
+                            "formattedValue": "49,9540"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Iceland",
+                            "formattedValue": "Iceland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.3593125000000077",
+                            "formattedValue": "5,35931"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "55.154375000000016",
+                            "formattedValue": "55,1544"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Hungary",
+                            "formattedValue": "Hungary"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.8543125000000026",
+                            "formattedValue": "3,85431"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "49.721687499999987",
+                            "formattedValue": "49,7217"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Greenland",
+                            "formattedValue": "Greenland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Greece",
+                            "formattedValue": "Greece"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.3200000000000005",
+                            "formattedValue": "1,32000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "64.031749999999946",
+                            "formattedValue": "64,0317"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Gibraltar",
+                            "formattedValue": "Gibraltar"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Germany",
+                            "formattedValue": "Germany"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0388125000000001",
+                            "formattedValue": "2,03881"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.8159999999999994",
+                            "formattedValue": "3,8160"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "France",
+                            "formattedValue": "France"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.500250000000004",
+                            "formattedValue": "4,50025"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "49.043687499999983",
+                            "formattedValue": "49,0437"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Finland",
+                            "formattedValue": "Finland"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.0088750000000006",
+                            "formattedValue": "5,00888"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "79.289812500000025",
+                            "formattedValue": "79,2898"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Faroe Islands",
+                            "formattedValue": "Faroe Islands"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Estonia",
+                            "formattedValue": "Estonia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.9179374999999976",
+                            "formattedValue": "3,91794"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "57.83950000000003",
+                            "formattedValue": "57,8395"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Denmark",
+                            "formattedValue": "Denmark"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.0885000000000096",
+                            "formattedValue": "6,08850"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "63.86068750000004",
+                            "formattedValue": "63,8607"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Czech Republic",
+                            "formattedValue": "Czech Republic"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.2578125",
+                            "formattedValue": "3,25781"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "44.189187500000045",
+                            "formattedValue": "44,1892"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cyprus",
+                            "formattedValue": "Cyprus"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.6988749999999966",
+                            "formattedValue": "4,69888"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "35.805437499999975",
+                            "formattedValue": "35,8054"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Croatia",
+                            "formattedValue": "Croatia"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0337500000000008",
+                            "formattedValue": "2,03375"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "37.42506250000001",
+                            "formattedValue": "37,4251"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Channel Islands",
+                            "formattedValue": "Channel Islands"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bulgaria",
+                            "formattedValue": "Bulgaria"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.8153749999999986",
+                            "formattedValue": "2,81538"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "48.413437499999944",
+                            "formattedValue": "48,4134"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bosnia and Herzegovina",
+                            "formattedValue": "Bosnia and Herzegovina"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "4.0946249999999997",
+                            "formattedValue": "4,0946"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belgium",
+                            "formattedValue": "Belgium"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1499375000000027",
+                            "formattedValue": "4,14994"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "55.564249999999973",
+                            "formattedValue": "55,5643"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Belarus",
+                            "formattedValue": "Belarus"
+                        },
+                        "Region": {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.6915624999999972",
+                            "formattedValue": "3,69156"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "67.913187500000007",
+                            "formattedValue": "67,9132"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Vietnam",
+                            "formattedValue": "Vietnam"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.0921874999999997",
+                            "formattedValue": "1,09219"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "16.054749999999999",
+                            "formattedValue": "16,0548"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Uzbekistan",
+                            "formattedValue": "Uzbekistan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "8.4888750000000126",
+                            "formattedValue": "8,4889"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Turkmenistan",
+                            "formattedValue": "Turkmenistan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.1905625",
+                            "formattedValue": "0,19056"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.4990000000000002",
+                            "formattedValue": "0,4990"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Timor-Leste",
+                            "formattedValue": "Timor-Leste"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.9079375000000006",
+                            "formattedValue": "2,90794"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.726812499999999",
+                            "formattedValue": "2,7268"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Thailand",
+                            "formattedValue": "Thailand"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.557999999999995",
+                            "formattedValue": "3,55800"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "39.73493749999998",
+                            "formattedValue": "39,7349"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tajikistan",
+                            "formattedValue": "Tajikistan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.6576875000000012",
+                            "formattedValue": "2,65769"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "19.932062499999983",
+                            "formattedValue": "19,9321"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sri Lanka",
+                            "formattedValue": "Sri Lanka"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.4838124999999998",
+                            "formattedValue": "0,48381"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "5.5246874999999998",
+                            "formattedValue": "5,5247"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Singapore",
+                            "formattedValue": "Singapore"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.8451249999999996",
+                            "formattedValue": "2,84513"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Philippines",
+                            "formattedValue": "Philippines"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.951",
+                            "formattedValue": "1,95100"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "24.541875000000005",
+                            "formattedValue": "24,5419"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Pakistan",
+                            "formattedValue": "Pakistan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.7644375000000004",
+                            "formattedValue": "1,76444"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "4.5980000000000008",
+                            "formattedValue": "4,5980"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Nepal",
+                            "formattedValue": "Nepal"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.0377499999999964",
+                            "formattedValue": "3,03775"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "8.5399375000000042",
+                            "formattedValue": "8,5399"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Myanmar",
+                            "formattedValue": "Myanmar"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.0520000000000023",
+                            "formattedValue": "3,0520"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mongolia",
+                            "formattedValue": "Mongolia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.2610000000000015",
+                            "formattedValue": "2,26100"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "44.549937499999984",
+                            "formattedValue": "44,5499"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Maldives",
+                            "formattedValue": "Maldives"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.3540000000000023",
+                            "formattedValue": "3,35400"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.4945625000000002",
+                            "formattedValue": "1,4946"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malaysia",
+                            "formattedValue": "Malaysia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.4173124999999969",
+                            "formattedValue": "4,41731"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "27.733249999999995",
+                            "formattedValue": "27,7333"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Macao SAR, China",
+                            "formattedValue": "Macao SAR, China"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3066250000000013",
+                            "formattedValue": "2,30663"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "56.164249999999917",
+                            "formattedValue": "56,1642"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lao PDR",
+                            "formattedValue": "Lao PDR"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.6503749999999994",
+                            "formattedValue": "1,65038"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "10.296312499999988",
+                            "formattedValue": "10,2963"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kyrgyz Republic",
+                            "formattedValue": "Kyrgyz Republic"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.794687500000002",
+                            "formattedValue": "4,79469"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "34.318312500000005",
+                            "formattedValue": "34,3183"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Korea, Rep.",
+                            "formattedValue": "Korea, Rep."
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.5943124999999996",
+                            "formattedValue": "2,59431"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "80.367937499999997",
+                            "formattedValue": "80,3679"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Korea, Dem. People_s Rep.",
+                            "formattedValue": "Korea, Dem. People_s Rep."
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.823999999999999",
+                            "formattedValue": "3,8240"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kazakhstan",
+                            "formattedValue": "Kazakhstan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.7272500000000004",
+                            "formattedValue": "1,72725"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "14.981812499999995",
+                            "formattedValue": "14,9818"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Japan",
+                            "formattedValue": "Japan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.9434375000000018",
+                            "formattedValue": "2,94344"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "48.865625000000001",
+                            "formattedValue": "48,8656"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Indonesia",
+                            "formattedValue": "Indonesia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.2619375000000011",
+                            "formattedValue": "2,26194"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "17.832124999999998",
+                            "formattedValue": "17,8321"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "India",
+                            "formattedValue": "India"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.9625625000000004",
+                            "formattedValue": "1,96256"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "12.929312500000005",
+                            "formattedValue": "12,9293"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Hong Kong SAR, China",
+                            "formattedValue": "Hong Kong SAR, China"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.3512499999999976",
+                            "formattedValue": "3,35125"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "37.196999999999989",
+                            "formattedValue": "37,1970"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Georgia",
+                            "formattedValue": "Georgia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.90875",
+                            "formattedValue": "1,90875"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "34.210249999999988",
+                            "formattedValue": "34,2103"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "China",
+                            "formattedValue": "China"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "17.14443750000002",
+                            "formattedValue": "17,1444"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cambodia",
+                            "formattedValue": "Cambodia"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.6890624999999996",
+                            "formattedValue": "0,68906"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "5.0089374999999974",
+                            "formattedValue": "5,0089"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Brunei Darussalam",
+                            "formattedValue": "Brunei Darussalam"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.0254374999999996",
+                            "formattedValue": "1,02544"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "16.227062499999999",
+                            "formattedValue": "16,2271"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bhutan",
+                            "formattedValue": "Bhutan"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.3987499999999997",
+                            "formattedValue": "3,39875"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.9991250000000002",
+                            "formattedValue": "3,9991"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Bangladesh",
+                            "formattedValue": "Bangladesh"
+                        },
+                        "Region": {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.4163750000000002",
+                            "formattedValue": "1,41638"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "6.0441874999999969",
+                            "formattedValue": "6,0442"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Zimbabwe",
+                            "formattedValue": "Zimbabwe"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.122875",
+                            "formattedValue": "0,12288"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.4669375000000008",
+                            "formattedValue": "1,4669"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Zambia",
+                            "formattedValue": "Zambia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.5205",
+                            "formattedValue": "0,52050"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Uganda",
+                            "formattedValue": "Uganda"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.2838749999999999",
+                            "formattedValue": "1,28388"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.2631249999999992",
+                            "formattedValue": "2,2631"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tunisia",
+                            "formattedValue": "Tunisia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.7696250000000032",
+                            "formattedValue": "4,76963"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "28.827874999999999",
+                            "formattedValue": "28,8279"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Togo",
+                            "formattedValue": "Togo"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.8515625",
+                            "formattedValue": "3,85156"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.7783749999999974",
+                            "formattedValue": "3,7784"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Tanzania",
+                            "formattedValue": "Tanzania"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0608125000000013",
+                            "formattedValue": "2,06081"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.9663125000000002",
+                            "formattedValue": "0,9663"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Swaziland",
+                            "formattedValue": "Swaziland"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.6858125000000036",
+                            "formattedValue": "4,68581"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.1840624999999996",
+                            "formattedValue": "2,1841"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Suriname",
+                            "formattedValue": "Suriname"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.79075",
+                            "formattedValue": "0,7908"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sudan",
+                            "formattedValue": "Sudan"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.7508749999999996",
+                            "formattedValue": "0,75088"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "10.710750000000003",
+                            "formattedValue": "10,7108"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "South Sudan",
+                            "formattedValue": "South Sudan"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.0503125",
+                            "formattedValue": "0,05031"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "South Africa",
+                            "formattedValue": "South Africa"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "5.058500000000004",
+                            "formattedValue": "5,05850"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.4160625000000002",
+                            "formattedValue": "2,4161"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Somalia",
+                            "formattedValue": "Somalia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sierra Leone",
+                            "formattedValue": "Sierra Leone"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.6427500000000004",
+                            "formattedValue": "2,64275"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.3852500000000001",
+                            "formattedValue": "0,3853"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Seychelles",
+                            "formattedValue": "Seychelles"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.1839999999999995",
+                            "formattedValue": "1,18400"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.8331875000000002",
+                            "formattedValue": "0,8332"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Senegal",
+                            "formattedValue": "Senegal"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.7062500000000016",
+                            "formattedValue": "2,70625"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.8145000000000002",
+                            "formattedValue": "2,8145"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Sao Tome and Principe",
+                            "formattedValue": "Sao Tome and Principe"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.1812499999999995",
+                            "formattedValue": "4,18125"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.6406249999999996",
+                            "formattedValue": "1,6406"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Rwanda",
+                            "formattedValue": "Rwanda"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3299375000000002",
+                            "formattedValue": "2,32994"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.454312499999999",
+                            "formattedValue": "3,4543"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Nigeria",
+                            "formattedValue": "Nigeria"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.8686874999999998",
+                            "formattedValue": "1,8687"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Niger",
+                            "formattedValue": "Niger"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.188812500000001",
+                            "formattedValue": "3,18881"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.7838750000000002",
+                            "formattedValue": "0,7839"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Namibia",
+                            "formattedValue": "Namibia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.9783750000000006",
+                            "formattedValue": "2,97838"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.6096874999999994",
+                            "formattedValue": "2,6097"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mozambique",
+                            "formattedValue": "Mozambique"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.7243125000000006",
+                            "formattedValue": "1,72431"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.3021249999999998",
+                            "formattedValue": "2,3021"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Morocco",
+                            "formattedValue": "Morocco"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.6835000000000002",
+                            "formattedValue": "0,68350"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "13.268187499999993",
+                            "formattedValue": "13,2682"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mauritius",
+                            "formattedValue": "Mauritius"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.4988750000000014",
+                            "formattedValue": "3,49888"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "24.591874999999991",
+                            "formattedValue": "24,5919"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mauritania",
+                            "formattedValue": "Mauritania"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.9091250000000028",
+                            "formattedValue": "1,90913"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.1464999999999988",
+                            "formattedValue": "3,1465"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Mali",
+                            "formattedValue": "Mali"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.2545000000000011",
+                            "formattedValue": "3,25450"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.280062500000001",
+                            "formattedValue": "2,2801"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Malawi",
+                            "formattedValue": "Malawi"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.3913749999999992",
+                            "formattedValue": "2,39138"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.3086250000000002",
+                            "formattedValue": "0,3086"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Madagascar",
+                            "formattedValue": "Madagascar"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.4601249999999988",
+                            "formattedValue": "2,46013"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.7074374999999976",
+                            "formattedValue": "2,7074"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Libya",
+                            "formattedValue": "Libya"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "13.960062499999994",
+                            "formattedValue": "13,9601"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Liberia",
+                            "formattedValue": "Liberia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.380125",
+                            "formattedValue": "0,38013"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.5211875000000008",
+                            "formattedValue": "2,5212"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Lesotho",
+                            "formattedValue": "Lesotho"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "6.5368749999999968",
+                            "formattedValue": "6,53688"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.0396874999999994",
+                            "formattedValue": "3,0397"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Kenya",
+                            "formattedValue": "Kenya"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.109375",
+                            "formattedValue": "3,10938"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.1450624999999997",
+                            "formattedValue": "1,1451"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guinea-Bissau",
+                            "formattedValue": "Guinea-Bissau"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.5083750000000002",
+                            "formattedValue": "0,50838"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.2918125000000001",
+                            "formattedValue": "0,2918"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Guinea",
+                            "formattedValue": "Guinea"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.0074999999999998",
+                            "formattedValue": "2,00750"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "5.4740625000000042",
+                            "formattedValue": "5,4741"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ghana",
+                            "formattedValue": "Ghana"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.3563750000000026",
+                            "formattedValue": "4,35638"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "5.5331250000000002",
+                            "formattedValue": "5,5331"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Gambia, The",
+                            "formattedValue": "Gambia, The"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.9795625000000002",
+                            "formattedValue": "1,97956"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0",
+                            "formattedValue": "0,0000"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Gabon",
+                            "formattedValue": "Gabon"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.2391875",
+                            "formattedValue": "0,23919"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.0350625",
+                            "formattedValue": "1,0351"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Ethiopia",
+                            "formattedValue": "Ethiopia"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.5676875000000012",
+                            "formattedValue": "2,56769"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.1388749999999997",
+                            "formattedValue": "3,1389"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Eritrea",
+                            "formattedValue": "Eritrea"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.8029374999999998",
+                            "formattedValue": "0,80294"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.7324375",
+                            "formattedValue": "0,7324"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Equatorial Guinea",
+                            "formattedValue": "Equatorial Guinea"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0",
+                            "formattedValue": "0,00000"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "0.2021875",
+                            "formattedValue": "0,2022"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Egypt, Arab Rep.",
+                            "formattedValue": "Egypt, Arab Rep."
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.6161874999999992",
+                            "formattedValue": "1,61619"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "23.722937499999965",
+                            "formattedValue": "23,7229"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Djibouti",
+                            "formattedValue": "Djibouti"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "4.600562499999998",
+                            "formattedValue": "4,60056"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.6953750000000014",
+                            "formattedValue": "1,6954"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cote d'Ivoire",
+                            "formattedValue": "Cote d'Ivoire"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.5778125000000008",
+                            "formattedValue": "2,57781"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.72275",
+                            "formattedValue": "2,7228"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Congo, Rep.",
+                            "formattedValue": "Congo, Rep."
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.0243125",
+                            "formattedValue": "1,02431"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "3.3205000000000005",
+                            "formattedValue": "3,3205"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Congo, Dem. Rep.",
+                            "formattedValue": "Congo, Dem. Rep."
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.2404375000000001",
+                            "formattedValue": "0,24044"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.6976875000000002",
+                            "formattedValue": "2,6977"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Comoros",
+                            "formattedValue": "Comoros"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.338374999999999",
+                            "formattedValue": "1,33838"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.823624999999999",
+                            "formattedValue": "2,8236"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Chad",
+                            "formattedValue": "Chad"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.11025",
+                            "formattedValue": "1,11025"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.0583124999999996",
+                            "formattedValue": "1,0583"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Central African Republic",
+                            "formattedValue": "Central African Republic"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "0.9798125000000006",
+                            "formattedValue": "0,97981"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "1.1082499999999989",
+                            "formattedValue": "1,1083"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cameroon",
+                            "formattedValue": "Cameroon"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "2.4622500000000014",
+                            "formattedValue": "2,46225"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "5.2476250000000038",
+                            "formattedValue": "5,2476"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Cabo Verde",
+                            "formattedValue": "Cabo Verde"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.3604374999999975",
+                            "formattedValue": "3,36044"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "10.774312499999999",
+                            "formattedValue": "10,7743"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Burundi",
+                            "formattedValue": "Burundi"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.2170000000000028",
+                            "formattedValue": "3,21700"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.0481249999999998",
+                            "formattedValue": "2,0481"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Burkina Faso",
+                            "formattedValue": "Burkina Faso"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.9050625000000008",
+                            "formattedValue": "1,90506"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "2.2064375000000003",
+                            "formattedValue": "2,2064"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Botswana",
+                            "formattedValue": "Botswana"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "1.8248125000000006",
+                            "formattedValue": "1,82481"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "13.294124999999996",
+                            "formattedValue": "13,2941"
+                        }
+                    },
+                    {
+                        "Country": {
+                            "value": "Benin",
+                            "formattedValue": "Benin"
+                        },
+                        "Region": {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        "AGG(AVG Government expenditure on education)": {
+                            "value": "3.5961249999999976",
+                            "formattedValue": "3,59613"
+                        },
+                        "MOY(Gross Enrollment Ratio Terciary Both Sexes)": {
+                            "value": "7.3436250000000048",
+                            "formattedValue": "7,3436"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Chart Type",
+            "type": "string",
+            "value": {
+                "value": "Bar",
+                "formattedValue": "Bar"
+            }
+        },
+        {
+            "name": "Sort By",
+            "type": "string",
+            "value": {
+                "value": "Terciary",
+                "formattedValue": "Terciary"
+            }
+        }
+    ],
+    "image": "resources/snapshot-EducationandInnovationRB-SpendingonEduvsTerciartyScatter.png"
+}

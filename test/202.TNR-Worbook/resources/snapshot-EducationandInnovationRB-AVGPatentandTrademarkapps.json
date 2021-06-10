@@ -1,0 +1,146 @@
+{
+    "name": "AVGPatentandTrademarkapps",
+    "uniqueName": "EducationandInnovationRB-AVGPatentandTrademarkapps",
+    "url": "http://tableau-demo.360suite.io:9123//t/Demo/views/EducationandInnovationRB/AVGPatentandTrademarkapps",
+    "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovationRB/AVGPatentandTrademarkapps",
+    "timestamp": 1622615833609,
+    "content": {
+        "filters": true,
+        "fullColumns": true,
+        "image": true,
+        "parameters": true,
+        "summaryColumns": true,
+        "summaryData": true,
+        "worksheets": true
+    },
+    "worksheets": [
+        {
+            "name": "AVG Patent and Trademark apps",
+            "filters": [
+                {
+                    "caption": "Region",
+                    "type": "categorical",
+                    "values": [
+                        {
+                            "value": "Africa",
+                            "formattedValue": "Africa"
+                        },
+                        {
+                            "value": "Asia",
+                            "formattedValue": "Asia"
+                        },
+                        {
+                            "value": "Europe",
+                            "formattedValue": "Europe"
+                        },
+                        {
+                            "value": "Latin America & the Caribbean",
+                            "formattedValue": "Latin America & the Caribbean"
+                        },
+                        {
+                            "value": "Middle East",
+                            "formattedValue": "Middle East"
+                        },
+                        {
+                            "value": "North America",
+                            "formattedValue": "North America"
+                        },
+                        {
+                            "value": "Oceania",
+                            "formattedValue": "Oceania"
+                        }
+                    ]
+                },
+                {
+                    "caption": "Year",
+                    "type": "quantitative",
+                    "values": {
+                        "min": {
+                            "value": 2000,
+                            "formattedValue": "2000"
+                        },
+                        "max": {
+                            "value": 2015,
+                            "formattedValue": "2015"
+                        }
+                    }
+                }
+            ],
+            "columns": {
+                "summary": [
+                    {
+                        "name": "MOY(Patent and Trade Mark Applications, total)",
+                        "dataType": "float",
+                        "index": 0
+                    }
+                ],
+                "underlying": [
+                    {
+                        "name": "Region",
+                        "dataType": "string",
+                        "index": 0
+                    },
+                    {
+                        "name": "Year",
+                        "dataType": "integer",
+                        "index": 1
+                    },
+                    {
+                        "name": "Patent and Trade Mark Applications, total",
+                        "dataType": "integer",
+                        "index": 2
+                    },
+                    {
+                        "name": "Patent Applications Nonresident",
+                        "dataType": "integer",
+                        "index": 3
+                    },
+                    {
+                        "name": "Patent Applications Resident",
+                        "dataType": "integer",
+                        "index": 4
+                    },
+                    {
+                        "name": "Patent Applications Total",
+                        "dataType": "integer",
+                        "index": 5
+                    },
+                    {
+                        "name": "Trademark Applications Total",
+                        "dataType": "integer",
+                        "index": 6
+                    }
+                ]
+            },
+            "data": {
+                "summary": [
+                    {
+                        "MOY(Patent and Trade Mark Applications, total)": {
+                            "value": "22249.812806372549",
+                            "formattedValue": "22 249,81"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "parameters": [
+        {
+            "name": "Sort By",
+            "type": "string",
+            "value": {
+                "value": "Terciary",
+                "formattedValue": "Terciary"
+            }
+        },
+        {
+            "name": "Chart Type",
+            "type": "string",
+            "value": {
+                "value": "Bar",
+                "formattedValue": "Bar"
+            }
+        }
+    ],
+    "image": "resources/snapshot-EducationandInnovationRB-AVGPatentandTrademarkapps.png"
+}

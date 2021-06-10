@@ -1,0 +1,470 @@
+{
+    "description": "Assert SQL",
+    "name": "16.Assert_SQL_Equals",
+    "tableau-snapshot": {
+        "content": {
+            "filters": true,
+            "fullColumns": true,
+            "image": true,
+            "parameters": true,
+            "summaryColumns": true,
+            "summaryData": true,
+            "worksheets": true
+        },
+        "image": "resources/snapshot-EducationandInnovation_16021531742730-EducatedCountries.png",
+        "name": "EducatedCountries",
+        "parameters": [
+            {
+                "name": "Sorty By",
+                "type": "string",
+                "value": {
+                    "formattedValue": "Terciary",
+                    "value": "Terciary"
+                }
+            },
+            {
+                "name": "Chart Type",
+                "type": "string",
+                "value": {
+                    "formattedValue": "Bar",
+                    "value": "Bar"
+                }
+            }
+        ],
+        "timestamp": 1615561310524,
+        "uniqueName": "EducationandInnovation_16021531742730-EducatedCountries",
+        "url": "http://tableau-demo.360suite.io:9123/t/Presales/views/EducationandInnovation_16021531742730/EducatedCountries",
+        "urlWithSelmerTokens": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducationandInnovation_16021531742730/EducatedCountries",
+        "worksheets": [
+            {
+                "columns": {
+                    "summary": [
+                        {
+                            "dataType": "string",
+                            "index": 0,
+                            "name": "Country"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 1,
+                            "name": "Region"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 2,
+                            "name": "SOMME(Patent and Trade Mark Applications, total)"
+                        }
+                    ],
+                    "underlying": [
+                        {
+                            "dataType": "string",
+                            "index": 0,
+                            "name": "Country"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 1,
+                            "name": "Region"
+                        },
+                        {
+                            "dataType": "string",
+                            "index": 2,
+                            "name": "Country Code"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 3,
+                            "name": "Year"
+                        },
+                        {
+                            "dataType": "float",
+                            "index": 4,
+                            "name": "AVG Government expenditure on education"
+                        },
+                        {
+                            "dataType": "float",
+                            "index": 5,
+                            "name": "government expenditure on education pc of GDP"
+                        },
+                        {
+                            "dataType": "float",
+                            "index": 6,
+                            "name": "Gross Enrollment Ratio Terciary Both Sexes"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 7,
+                            "name": "Patent and Trade Mark Applications, total"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 8,
+                            "name": "Patent Applications Nonresident"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 9,
+                            "name": "Patent Applications Resident"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 10,
+                            "name": "Patent Applications Total"
+                        },
+                        {
+                            "dataType": "integer",
+                            "index": 11,
+                            "name": "Trademark Applications Total"
+                        }
+                    ]
+                },
+                "data": {
+                    "summary": [
+                        {
+                            "Country": {
+                                "formattedValue": "New Zealand",
+                                "value": "New Zealand"
+                            },
+                            "Region": {
+                                "formattedValue": "Oceania",
+                                "value": "Oceania"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "2 722 846",
+                                "value": "2722846"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Cuba",
+                                "value": "Cuba"
+                            },
+                            "Region": {
+                                "formattedValue": "Latin America & the Caribbean",
+                                "value": "Latin America & the Caribbean"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "278 614",
+                                "value": "278614"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "United Kingdom",
+                                "value": "United Kingdom"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "6 945 386",
+                                "value": "6945386"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Ukraine",
+                                "value": "Ukraine"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "3 246 859",
+                                "value": "3246859"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Sweden",
+                                "value": "Sweden"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "1 740 529",
+                                "value": "1740529"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Slovenia",
+                                "value": "Slovenia"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "593 159",
+                                "value": "593159"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Norway",
+                                "value": "Norway"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "2 000 845",
+                                "value": "2000845"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Netherlands",
+                                "value": "Netherlands"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "288 211",
+                                "value": "288211"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Lithuania",
+                                "value": "Lithuania"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "630 630",
+                                "value": "630630"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Iceland",
+                                "value": "Iceland"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "465 836",
+                                "value": "465836"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Finland",
+                                "value": "Finland"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "968 170",
+                                "value": "968170"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Denmark",
+                                "value": "Denmark"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "1 052 940",
+                                "value": "1052940"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Belgium",
+                                "value": "Belgium"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "3 198 944",
+                                "value": "3198944"
+                            }
+                        },
+                        {
+                            "Country": {
+                                "formattedValue": "Austria",
+                                "value": "Austria"
+                            },
+                            "Region": {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            "SOMME(Patent and Trade Mark Applications, total)": {
+                                "formattedValue": "1 715 273",
+                                "value": "1715273"
+                            }
+                        }
+                    ]
+                },
+                "filters": [
+                    {
+                        "caption": "Education expenditure above 4% and terciary enrolment above 50%",
+                        "type": "categorical",
+                        "values": [
+                            {
+                                "formattedValue": "AUT",
+                                "value": "AUT"
+                            },
+                            {
+                                "formattedValue": "BEL",
+                                "value": "BEL"
+                            },
+                            {
+                                "formattedValue": "CUB",
+                                "value": "CUB"
+                            },
+                            {
+                                "formattedValue": "DNK",
+                                "value": "DNK"
+                            },
+                            {
+                                "formattedValue": "FIN",
+                                "value": "FIN"
+                            },
+                            {
+                                "formattedValue": "GBR",
+                                "value": "GBR"
+                            },
+                            {
+                                "formattedValue": "ISL",
+                                "value": "ISL"
+                            },
+                            {
+                                "formattedValue": "LTU",
+                                "value": "LTU"
+                            },
+                            {
+                                "formattedValue": "NLD",
+                                "value": "NLD"
+                            },
+                            {
+                                "formattedValue": "NOR",
+                                "value": "NOR"
+                            },
+                            {
+                                "formattedValue": "NZL",
+                                "value": "NZL"
+                            },
+                            {
+                                "formattedValue": "SVN",
+                                "value": "SVN"
+                            },
+                            {
+                                "formattedValue": "SWE",
+                                "value": "SWE"
+                            },
+                            {
+                                "formattedValue": "UKR",
+                                "value": "UKR"
+                            }
+                        ]
+                    },
+                    {
+                        "caption": "Region",
+                        "type": "categorical",
+                        "values": [
+                            {
+                                "formattedValue": "Europe",
+                                "value": "Europe"
+                            },
+                            {
+                                "formattedValue": "Latin America & the Caribbean",
+                                "value": "Latin America & the Caribbean"
+                            },
+                            {
+                                "formattedValue": "Oceania",
+                                "value": "Oceania"
+                            }
+                        ]
+                    },
+                    {
+                        "caption": "Year",
+                        "type": "quantitative",
+                        "values": {
+                            "max": {
+                                "formattedValue": "2015",
+                                "value": 2015
+                            },
+                            "min": {
+                                "formattedValue": "2000",
+                                "value": 2000
+                            }
+                        }
+                    }
+                ],
+                "name": "Educated Countries"
+            }
+        ]
+    },
+    "tasks": [
+        {
+            "disabled": false,
+            "name": "Login to Tableau",
+            "password": "9h9oMJ05dVvJlifzl/v8;encrypted",
+            "site-id": "{{TABLEAU_SITE}}",
+            "type": "login_tableau",
+            "url": "{{TABLEAU_URL}}",
+            "user": "{{TABLEAU_USER}}"
+        },
+        {
+            "disabled": false,
+            "name": "Open viz",
+            "type": "viz_open",
+            "url": "{{TABLEAU_URL}}/t/{{TABLEAU_SITE}}/views/EducatedCountries/Sheet1"
+        },
+        {
+            "columns": [
+                "Country",
+                "Region",
+                "Patent and Trade Mark Applications, total"
+            ],
+            "data-type": "SUMMARY",
+            "disabled": false,
+            "formatted-values": true,
+            "name": "Assert SQL Equals",
+            "sql": "SELECT\n  country \"Country\",\n  region \"Region\",\n  TRIM(\n    CAST(\n      SUM(\n        patent_applications_resident + patent_applications_nonresident + trademark_applications_total\n      )  AS CHAR\n    )\n  ) \"Patent and Trade Mark Applications, total\"\nFROM\n  worldbank_dev_indicators\nGROUP BY\n  country,\n  region\nHAVING\n  AVG(government_expenditure_on_education_pc_of_GDP) > 4\n  AND AVG(gross_enrollment_ratio_terciary_both_sexes) > 50",
+            "tableau-export-csv": {
+                "delimiter": ",",
+                "encoding": "utf8",
+                "newline-char": "\n"
+            },
+            "target": "Educated Countries",
+            "target-db": {
+                "classname": "com.microsoft.jdbc.sqlserver.SQLServerDriver",
+                "jdbc-builder-dbname": "worldbank",
+                "jdbc-builder-dbtype": "mssql",
+                "jdbc-builder-host": "EC2AMAZ-2JHLRC5\\SQLEXPRESS",
+                "jdbc-builder-port": "1433",
+                "max-rows": 2000,
+                "password": "3QVPAqgaQn6t;encrypted",
+                "subname": "//EC2AMAZ-2JHLRC5\\SQLEXPRESS:1433;database=worldbank",
+                "subprotocol": "sqlserver",
+                "user": "ycouty"
+            },
+            "type": "assert_sql_equals"
+        }
+    ],
+    "type": "functional"
+}
